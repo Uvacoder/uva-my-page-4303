@@ -3,14 +3,14 @@ import type { EnginesData } from '@/types'
 export const enginesData: EnginesData = [
     {
         id: 1,
-        name: 'Baidu',
-        baseUrl: 'https://www.baidu.com/s?ie=UTF-8&wd=',
-        placeholderText: '百度一下，你就知道',
+        name: 'uvacoder',
+        baseUrl: 'https://github.com/Uvacoder?tab=repositories=',
+        placeholderText: 'uvacoder repos',
         hotkeys: 'ctrl+a',
         color: '#4E6EF2',
         category: 1,
         isDefault: true,
-        prefix: 'bd',
+        prefix: 'repo',
         suffix: [],
     },
     {
