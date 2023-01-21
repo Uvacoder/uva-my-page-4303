@@ -7,7 +7,7 @@ import placeholderColor from 'windicss/colors'
 import vueI18n from '@intlify/vite-plugin-vue-i18n'
 
 export default ({ mode }) => {
-    const __DEV__ = mode === 'development'
+    const __DEV__ = mode === 'production'
 
     const alias: Record<string, string> = {
         '@/': `${resolve(__dirname, 'src')}/`,
