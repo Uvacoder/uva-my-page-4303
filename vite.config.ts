@@ -9,9 +9,7 @@ import vueI18n from '@intlify/vite-plugin-vue-i18n'
 export default ({ mode }) => {
     const __DEV__ = mode === 'development'
 
-    const alias: Record<string, string> = {
-        '@/': `${resolve(__dirname, 'src')}/`,
-    }
+    
 
     if (__DEV__) {
         // 解决警告You are running the esm-bundler build of vue-i18n.
